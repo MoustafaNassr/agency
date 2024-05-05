@@ -16,7 +16,7 @@ import Footer from "@/components/home-page/home-4/footer";
 export const metadata = {
   title: "N.P Charity || ApexNile - Creative Multipurpose React NextJS Template",
 };
-const charity = () => {
+const Charity = () => {
   return (
     <div className="pattern-bg-one">
       {/* <!--  =============================================
@@ -279,4 +279,4 @@ const charity = () => {
   );
 };
 
-export default charity;
+export default Charity;

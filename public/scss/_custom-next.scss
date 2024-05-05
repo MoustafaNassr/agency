@@ -42,3 +42,40 @@ select option {
         bottom: 12px;
     }
 }
+.active-menu {
+    color: var(--prime-two) !important;
+}
+
+.theme-menu-three {
+    .active-menu {
+        color: var(--prime-three) !important;
+    }
+}
+.theme-menu-six {
+    .active-menu {
+        color: var(--prime-six) !important;
+    }
+}
+.theme-menu-seven {
+    .active-menu {
+        color: var(--prime-nine) !important;
+    }
+}
+.theme-menu-eight {
+    .active-menu {
+        color: var(--prime-ten) !important;
+    }
+}
+.theme-menu-nine {
+    .active-menu {
+        color: var(--prime-two) !important;
+    }
+}
+.theme-menu-eleven {
+    .active-menu {
+        color: var(--prime-three) !important;
+    }
+}
+.theme-menu-five.charity .navbar-nav img {
+    filter: invert(1);
+}
