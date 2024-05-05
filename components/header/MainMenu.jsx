@@ -38,7 +38,7 @@ const MainMenu = () => {
         <ul className="navbar-nav">
           <li className="d-block d-lg-none">
             <div className="logo">
-              <Link href="/" className="d-block">
+              <Link href="/home/web-hosting" className="d-block">
                 <Image
                   src="/images/logo/logo_01.png"
                   alt="logo"
@@ -53,7 +53,7 @@ const MainMenu = () => {
           <li >
             <a
               // className="nav-link dropdown-toggle active-menu"
-              href="/"
+              href="/home/real-estate"
           
               className={
                 menuItems.some((menu) =>
@@ -117,7 +117,7 @@ const MainMenu = () => {
                   ? "nav-link  active-menu"
                   : "nav-link "
               }
-              href="/pages-menu/about-us-v1"
+              href="/pages-menu/about-us-v2"
              
             >
 about            </a>
@@ -140,7 +140,7 @@ about            </a>
                   ? "nav-link  active-menu"
                   : "nav-link "
               }
-              href="/pages-menu/service-v1"
+              href="/pages-menu/service-v2"
              
             >
 Services           </a>
